@@ -43,7 +43,7 @@ function init() {
   initMenuMobile();
   initFuncionamento();
   initfetchAnimais();
-  initFetchBitcoin();
+  initFetchBitcoin("https://blockchain.info/ticker", ".btc-preco");
 }
 
 // 3. Execução
